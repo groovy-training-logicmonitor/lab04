@@ -24,8 +24,22 @@ Run the program and record the results in the table below:
 | Deletion        | put results here | put results here  |
 | Access nth item | put results here | put results here  |
 
-For each of the operations insert a comma separated list of timings (in seconds) for each of the sizes run in the groovy app. For example, 1 s, 2s, 4s for each of the runs of 10, 100, and 1,000 elements.
+For each of the operations insert a comma separated list of timings (in seconds) for each of the sizes run in the groovy app. For example, 1s, 2s, 4s for each of the runs of 10, 100, and 1,000 elements.
 
 ## Step 4. Maps
+
+Maps are a magical data structure. Well at least they seem that way until you fully understand what they are. There are several terms that these structures are known as: maps, hash maps or dictionaries. They are mostly synonymous, the map is the generic term that refers to a class of data structures that map one type to another in memory. An array is techinically also a map, it maps an integer to a memory location. We are most familiar with dicitionaries which map strings to a memory location. The *magic* of a hash map is that it takes a string and maps it to a memory location in constant time on average. In other words its very nearly as fast as an array.
+
+To demonstrate this fact, run the program in this repository called `step4.groovy` in IntelliJ or on the command line. 
+
+Record the results of running this program in the table below:
+
+| Collection Type | Results for list | Results for array |
+|-----------------|------------------|-------------------|
+| Insertion       | put results here | put results here  |
+| Deletion        | put results here | put results here  |
+| Access nth item | put results here | put results here  |
+
+Record each timing as you did in step 3.
 
 ## Step 5. Sets
