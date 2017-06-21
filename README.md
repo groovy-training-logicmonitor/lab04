@@ -47,7 +47,7 @@ To demonstrate this fact, run the program in this repository called `step4.groov
 
 Record the results of running this program in the table below:
 
-| Operation       | Size 100         | Size 1000         | Size 100,000,000 |
+| Operation       | Size 100         | Size 1000         | Size 10,000,000  |
 |-----------------|------------------|-------------------|------------------|
 | Accessing key   | put results here | put results here  | put results here |
 
