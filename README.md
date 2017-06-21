@@ -22,6 +22,8 @@ Run the program and record the results in the table below:
 | Deletion        | put results here | put results here  |
 | Access nth item | put results here | put results here  |
 
+For each of the operations insert a comma separated list of timings (in seconds) for each of the sizes run in the groovy app. For example, 1 s, 2s, 4s for each of the runs of 10, 100, and 1,000 elements.
+
 ## Step 4. Maps
 
 ## Step 5. Sets
