@@ -14,7 +14,13 @@ Remember, the best algorithm is an algorithm that takes constant time. In other 
 
 ## Step 3. Arrays and Lists
 
-For this lab exercise you will not write very much code, but you will run some code. In this step we're going to run the program in step3.groovy. This program will demonstrate the difference in performance for arrays and lists by running various basic operations on them. The main take away from this step is that arrays and lists are better for different situations.
+For this lab exercise you will not write very much code, but you will run some code.
+
+For more information about the use and interfaces for Arrays and Lists see these documents:
+1. Arrays: [Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+2. Lists: [Groovy](http://groovy-lang.org/groovy-dev-kit.html#Collections-Lists), [Java](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
+
+In this step we're going to run the program in step3.groovy. This program will demonstrate the difference in performance for arrays and lists by running various basic operations on them. The main take away from this step is that arrays and lists are better for different situations.
 
 Run the program and record the results in the table below:
 
@@ -30,6 +36,9 @@ For each of the operations insert a comma separated list of timings (in seconds)
 
 Maps are a magical data structure. Well at least they seem that way until you fully understand what they are. There are several terms that these structures are known as: maps, hash maps or dictionaries. They are mostly synonymous, the map is the generic term that refers to a class of data structures that map one type to another in memory. An array is techinically also a map, it maps an integer to a memory location. We are most familiar with dicitionaries which map strings to a memory location. The *magic* of a hash map is that it takes a string and maps it to a memory location in constant time on average. In other words its very nearly as fast as an array.
 
+For more information about the use and interface HashMaps see this document:
+1. HashMap: [Groovy](http://groovy-lang.org/groovy-dev-kit.html#Collections-Maps), [Java](https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)
+
 To demonstrate this fact, run the program in this repository called `step4.groovy` in IntelliJ or on the command line. 
 
 Record the results of running this program in the table below:
@@ -41,3 +50,8 @@ Record the results of running this program in the table below:
 Record each timing as you did in step 3.
 
 ## Step 5. Sets
+
+OK, now we're going to do some programming. The goal of this step is to familiarize yourself with the *Set* data structure. We'll use it to solve what's called the dedupulication problem. Given a set of data with duplicates, how do you quickly remove all the duplication. The answer is *Set*s. Add each element of the list to the *Set*. One of the characteristics of a *Set* is that it only contains each element once. So as you add the duplicate items, the *Set* still only contains each item once. After adding each element to the *Set*, your left with a deduplicated collection.
+
+Open step5.groovy in IntelliJ. Most of the code is already done for you. Add the code in the fuction `deduplicate` to remove duplicates using *Sets*. That's it. When you're done you can choose to commit and push your solution.
+
