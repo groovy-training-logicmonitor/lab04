@@ -18,7 +18,7 @@ For this lab exercise you will not write very much code, but you will run some c
 
 Run the program and record the results in the table below:
 
-| Collection Type | Results for list | Results for array |
+| Operation       | Results for list | Results for array |
 |-----------------|------------------|-------------------|
 | Insertion       | put results here | put results here  |
 | Deletion        | put results here | put results here  |
@@ -34,11 +34,9 @@ To demonstrate this fact, run the program in this repository called `step4.groov
 
 Record the results of running this program in the table below:
 
-| Collection Type | Results for list | Results for array |
-|-----------------|------------------|-------------------|
-| Insertion       | put results here | put results here  |
-| Deletion        | put results here | put results here  |
-| Access nth item | put results here | put results here  |
+| Operation       | Size 100         | Size 1000         | Size 100,000,000 |
+|-----------------|------------------|-------------------|------------------|
+| Accessing key   | put results here | put results here  | put results here |
 
 Record each timing as you did in step 3.
 
