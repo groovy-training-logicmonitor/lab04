@@ -12,6 +12,10 @@ If you would like to gain a deeper understanding, please see this [Wiki](https:/
 
 Remember, the best algorithm is an algorithm that takes constant time. In other words, the best solution takes the same amount of time regardless of whether you have 1 item in the collection or a billion.
 
+## Step 2. Nothing
+
+Forgot to put something here. So, because I'm lazy, skip to step 3.
+
 ## Step 3. Arrays and Lists
 
 For this lab exercise you will not write very much code, but you will run some code.
